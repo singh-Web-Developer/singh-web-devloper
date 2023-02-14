@@ -1,2 +1,2 @@
-# singh-web-devloper
+# singhji-web-devloper
 Aashish singh portfolio
