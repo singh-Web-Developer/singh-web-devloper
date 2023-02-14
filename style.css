@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(192, 190, 190);
+    /*background-color: yellow;*/
+    width: 230px;
+    font-family: 'Dancing ,Script cursive';
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(19, 16, 16);
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 80vw;
+    height: 76vh;
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color:rgb(212, 30, 182);*/
+    height: 70vh;
+    width: 70vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans, sans-serif';
+}
+
+.about {
+    font-size: 40px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 7px 11px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 70vh;
+}
+
+.contactform {
+    padding-top: 200px;
+    padding: 0 34px;
+    font-family: 'Fira Sans, sans-serif';
+}
+
+.contactform h1 {
+    font-family: 'Dancing Script', cursive;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 35px;
+    font-family: 'Fira Sans, sans-serif';
+}
+h1{
+    font-family: 'Fira Sans, sans-serif';
+    margin: 23px;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+}
+.intro h2{
+    font-family: 'Fira Sans, sans-serif';
+    margin: 30px;
+}
+.intro p{
+    font-family: 'Fira Sans, sans-serif';
+    margin: 12px;
+}
+.skillscontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+  font-weight: 1000;
+}
+.skill{
+    width: 265px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: blue;
+}
+.eighty{
+    width: 225px;
+    background-color: aqua;
+}
+.t5{
+    width: 200px;
+    background-color: yellow;
+}
